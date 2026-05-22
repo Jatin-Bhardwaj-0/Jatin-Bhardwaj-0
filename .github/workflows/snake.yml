@@ -14,9 +14,6 @@ jobs:
         with:
           github_user_name: Jatin-Bhardwaj-0
           outputs: dist/github-contribution-grid-snake.svg
-          color_snake: "#00FF7F" # neon green
-          color_dots: "#1E90FF"  # electric blue
-          color_empty: "#0A0A0A" # dark background
 
       - name: Push Snake Animation
         uses: crazy-max/ghaction-github-pages@v3
